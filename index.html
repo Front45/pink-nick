@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Pink Nick">
+<meta name="theme-color" content="#000000">
+<meta name="format-detection" content="telephone=no">
+<title>Pink Nick ♡ Генератор ников</title>
+<style>
+:root{--bg1:#07030a;--bg2:#2b0719;--card:rgba(18,6,14,.78);--ink:#ffb3d1;--soft:#ff8fb8;--line:#ff4f93;--glow:rgba(255,60,140,.45);--white:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+
+
+html{scroll-padding-top:env(safe-area-inset-top,0px);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;min-height:100vh;min-height:100dvh;color:var(--ink);font-family:"Quicksand","Nunito","Segoe UI",system-ui,sans-serif;background:var(--bg1);
+background-image:linear-gradient(125deg,#000 0%,#2a0016 18%,#ff2d87 42%,#12000a 62%,#e0207a 82%,#000 100%);background-size:300% 300%;animation:bgs 14s ease-in-out infinite;overflow-x:hidden}
+.edge{position:fixed;pointer-events:none;z-index:0;font-size:34px;opacity:.75;animation:fl 5s ease-in-out infinite;filter:drop-shadow(0 4px 6px var(--glow))}
+.e1{top:10px;left:10px}.e2{top:14px;right:12px;animation-delay:1s}.e3{bottom:14px;left:12px;animation-delay:2s}.e4{bottom:12px;right:12px;animation-delay:.5s}
+.e5{top:45%;left:6px;font-size:22px;animation-delay:1.5s}.e6{top:40%;right:8px;font-size:22px;animation-delay:2.5s}
+@keyframes fl{50%{transform:translateY(-8px) rotate(6deg)}}
+.chain{position:fixed;top:0;bottom:0;width:30px;z-index:0;pointer-events:none;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='48' viewBox='0 0 30 48' fill='none'%3E%3Crect x='7' y='2' width='16' height='28' rx='8' stroke='%23ff7ab0' stroke-width='3'/%3E%3Crect x='12' y='22' width='6' height='26' rx='3' stroke='%23ffc2d9' stroke-width='2.5'/%3E%3C/svg%3E") repeat-y center top;filter:drop-shadow(0 0 6px rgba(255,60,140,.8));animation:glw 3.5s ease-in-out infinite}
+.c1{left:4px}.c2{right:4px;animation-delay:1.7s}
+.chain.ch{top:0;bottom:auto;left:0;right:0;width:auto;height:30px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='30' viewBox='0 0 48 30' fill='none'%3E%3Crect x='2' y='7' width='28' height='16' rx='8' stroke='%23ff7ab0' stroke-width='3'/%3E%3Crect x='22' y='12' width='26' height='6' rx='3' stroke='%23ffc2d9' stroke-width='2.5'/%3E%3C/svg%3E") repeat-x left center}
+@keyframes glw{50%{filter:drop-shadow(0 0 13px rgba(255,60,140,1))}}
+@keyframes bgs{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.lnk{position:fixed;width:90px;height:150%;z-index:0;pointer-events:none;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='96' viewBox='0 0 60 96' fill='none'%3E%3Crect x='10' y='4' width='40' height='62' rx='20' stroke='%23000' stroke-width='9'/%3E%3Crect x='10' y='4' width='40' height='62' rx='20' stroke='%23ff7ab0' stroke-width='1.5' opacity='.7'/%3E%3Crect x='25' y='50' width='10' height='46' rx='5' stroke='%23000' stroke-width='8'/%3E%3C/svg%3E") repeat-y center top;background-size:90px auto;filter:drop-shadow(0 0 3px #ff5fa5) drop-shadow(0 0 14px rgba(255,60,140,.55));transform:rotate(var(--r));animation:sw 9s ease-in-out infinite}
+.l1{left:8%;top:-25%;--r:16deg}.l2{left:58%;top:-25%;--r:-22deg;animation-delay:-3s}.l3{left:92%;top:-25%;--r:6deg;width:70px;background-size:70px auto;animation-delay:-6s}.l4{left:30%;top:-30%;height:170%;--r:78deg;width:110px;background-size:110px auto;animation-delay:-4s}
+@keyframes sw{0%,100%{transform:rotate(var(--r))}50%{transform:rotate(calc(var(--r) + 4deg))}}
+.sp{position:fixed;top:-20px;pointer-events:none;z-index:1;color:#ff8fb8;animation:fall linear forwards;text-shadow:0 0 8px #fff}
+@keyframes fall{to{transform:translateY(110vh) rotate(360deg);opacity:.1}}
+main{position:relative;z-index:2;max-width:880px;margin:0 auto;padding:22px 16px 60px}
+h1{text-align:center;font-size:clamp(30px,8vw,48px);margin:8px 0 2px;background:linear-gradient(90deg,#fff,#ffd0e4,#fff);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sh 4s linear infinite;letter-spacing:1px;filter:drop-shadow(0 2px 8px rgba(0,0,0,.55))}
+@keyframes sh{to{background-position:200% 0}}
+.sub{text-align:center;color:#ffe3ef;text-shadow:0 1px 6px #000a;margin:0 0 18px}
+.card{background:var(--card);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1.5px solid rgba(255,79,147,.55);border-radius:26px;padding:16px;margin-bottom:16px;box-shadow:0 10px 30px var(--glow)}
+h2{font-size:15px;margin:0 0 10px;color:var(--ink)}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+input[type=text]{-webkit-appearance:none;appearance:none;flex:1 1 200px;min-width:0;font:inherit;font-size:18px;padding:13px 18px;border-radius:999px;border:2px solid var(--line);background:#fff;color:#a8305f;outline:none;box-shadow:inset 0 2px 6px #ffd0e2}
+input[type=text]:focus{box-shadow:0 0 0 4px var(--glow)}
+.btn,.chip{touch-action:manipulation;-webkit-user-select:none;user-select:none;-webkit-appearance:none;appearance:none;font:inherit;font-weight:700;cursor:pointer;background:#fff;color:#e0508a;border:2px solid var(--line);border-radius:999px;padding:10px 18px;box-shadow:0 4px 12px var(--glow);transition:transform .15s,box-shadow .2s,background .2s}
+.btn:hover,.chip:hover{transform:translateY(-2px);box-shadow:0 8px 18px var(--glow)}
+.btn:active,.chip:active{transform:scale(.93);background:#ffe0ec}
+.chip{padding:7px 13px;font-weight:600;box-shadow:0 2px 6px var(--glow)}
+.chip[aria-pressed=true]{border-color:#ff5f9e;background:#fff0f6;box-shadow:0 0 0 3px var(--glow),0 2px 8px var(--glow)}
+.chip[aria-pressed=true]::after{content:" ✧";font-size:11px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.item{background:#fff;border:2px solid #ffd0e2;border-radius:20px;padding:12px 14px;display:flex;flex-direction:column;gap:10px;animation:pop .35s both;box-shadow:0 4px 14px var(--glow)}
+@keyframes pop{from{opacity:0;transform:scale(.9) translateY(8px)}}
+.nick{-webkit-user-select:text;user-select:text;font-size:21px;color:#c23a74;word-break:break-all;line-height:1.35;min-height:30px}
+.acts{display:flex;gap:8px}
+.acts .btn{padding:7px 14px;font-size:14px}
+.fav.on{background:#ffe0ec}
+.empty{color:var(--soft);text-align:center;padding:10px}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translate(-50%,30px);background:#fff;color:#e0508a;border:2px solid var(--line);border-radius:999px;padding:10px 22px;font-weight:700;opacity:0;transition:.3s;z-index:9;box-shadow:0 8px 24px var(--glow);pointer-events:none}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.hint{font-size:12px;color:var(--soft);margin:8px 2px 0}
+@media (max-width:560px){.edge{font-size:24px}.e5,.e6{display:none}.lnk{width:60px;background-size:60px auto;opacity:.85}.l3{width:50px;background-size:50px auto}.l4{width:70px;background-size:70px auto}.btn,.chip{min-height:44px}.chip{padding:9px 14px}.row .btn{flex:1 1 40%}.grid{grid-template-columns:1fr}.nick{font-size:23px}main{padding:16px max(14px,env(safe-area-inset-right)) 60px max(14px,env(safe-area-inset-left))}h1{margin-top:4px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<div class="lnk l1"></div><div class="lnk l2"></div><div class="lnk l3"></div><div class="lnk l4"></div>
+<span class="edge e1">🎀</span><span class="edge e2">✧</span><span class="edge e3">♡</span><span class="edge e4">🎀</span><span class="edge e5">⋆</span><span class="edge e6">♡</span>
+<main>
+<h1>🎀 Pink Nick ♡</h1>
+<p class="sub">генератор милых ников ✧ coquette · glossy pink</p>
+
+<section class="card">
+  <div class="row">
+    <input id="name" type="text" maxlength="24" value="Mariam" placeholder="Mariam, M4ri, Angel, Jumper…" autocomplete="off" aria-label="Имя">
+    <button class="btn" id="refresh">Обновить ↻</button>
+    <button class="btn" id="random">Случайные ✧</button>
+  </div>
+  <p class="hint">Шрифты работают с латиницей и цифрами. Кириллица остаётся обычной, но украшения применяются.</p>
+</section>
+
+<section class="card"><h2>🅰 Шрифты</h2><div class="chips" id="fonts"></div></section>
+<section class="card"><h2>♡ Украшения</h2><div class="chips" id="decor"></div></section>
+<section class="card">
+  <h2>📍 Расположение</h2><div class="chips" id="pos"></div>
+  <h2 style="margin-top:14px">〰 Стиль текста</h2><div class="chips" id="mode"></div>
+  <div class="chips" style="margin-top:10px"><button class="chip" id="space" aria-pressed="false">Пробелы вокруг</button></div>
+</section>
+
+<section class="card"><h2 id="rtitle">✨ Результаты</h2><div class="grid" id="results"></div></section>
+<section class="card"><h2>💗 Избранное</h2><div class="grid" id="favs"></div></section>
+</main>
+<div class="toast" id="toast">Скопировано ♡</div>
+
+<script>
+const R=(u,l,d,ex)=>{const m={};for(let i=0;i<26;i++){m[String.fromCharCode(65+i)]=String.fromCodePoint(u+i);m[String.fromCharCode(97+i)]=String.fromCodePoint(l+i)}
+if(d)for(let i=0;i<10;i++)m[i]=String.fromCodePoint(d+i);return Object.assign(m,ex||{})};
+const sc={};{const a="abcdefghijklmnopqrstuvwxyz",b=Array.from("ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀꜱᴛᴜᴠᴡxʏᴢ");for(let i=0;i<26;i++){sc[a[i]]=b[i];sc[a[i].toUpperCase()]=b[i]}}
+const FONTS=[
+{id:'bold',m:R(0x1D400,0x1D41A,0x1D7CE)},
+{id:'italic',m:R(0x1D434,0x1D44E,0,{h:'ℎ'})},
+{id:'bi',m:R(0x1D468,0x1D482,0)},
+{id:'script',m:R(0x1D49C,0x1D4B6,0,{B:'ℬ',E:'ℰ',F:'ℱ',H:'ℋ',I:'ℐ',L:'ℒ',M:'ℳ',R:'ℛ',e:'ℯ',g:'ℊ',o:'ℴ'})},
+{id:'bscript',m:R(0x1D4D0,0x1D4EA,0)},
+{id:'fraktur',m:R(0x1D504,0x1D51E,0,{C:'ℭ',H:'ℌ',I:'ℑ',R:'ℜ',Z:'ℨ'})},
+{id:'bfraktur',m:R(0x1D56C,0x1D586,0)},
+{id:'double',m:R(0x1D538,0x1D552,0x1D7D8,{C:'ℂ',H:'ℍ',N:'ℕ',P:'ℙ',Q:'ℚ',R:'ℝ',Z:'ℤ'})},
+{id:'mono',m:R(0x1D670,0x1D68A,0x1D7F6)},
+{id:'sans',m:R(0x1D5D4,0x1D5EE,0x1D7EC)},
+{id:'sansi',m:R(0x1D608,0x1D622,0)},
+{id:'small',m:sc},
+{id:'circle',m:R(0x24B6,0x24D0,0)},
+{id:'wide',m:R(0xFF21,0xFF41,0xFF10)}
+];
+const FNAMES={bold:'Жирный',italic:'Курсив',bi:'Жирный курсив',script:'Каллиграфия',bscript:'Милый ✿',fraktur:'Готика',bfraktur:'Тёмная готика',double:'Двойной',mono:'Моно',sans:'Sans жирный',sansi:'Sans курсив',small:'Мини-капс',circle:'В кружках',wide:'Широкий'};
+const DECOR=['♡','ღ','୨୧','ꨄ','𐙚','⋆','✧','༘','🎀','♥','˚₊','⊹','✿','❀','⟡','★','☆','ᡣ𐭩','˖','‧₊','౨ৎ','꒰꒱','ꕤ','☁︎','♪','ᯓ','⭒','𓆩♡𓆪','ᵔᴗᵔ','˙˚'];
+const POS=[['start','В начале'],['mid','В середине'],['end','В конце'],['both','По краям'],['between','Между буквами'],['random','Случайно']];
+const MODES=[['plain','Обычный'],['wave','Волна'],['curvy','Кривой']];
+const NAMES=['Mariam','Angel','Jumper','M4ri','Luna','Miko','Cherry','Honey','Bunny','Kitty','Sakura','Candy','Dolly','Lilu','Stella','Rosie','Mimi','Peach','Lolly','Aria'];
+
+const S={name:'Mariam',fonts:new Set(['bold','script','bscript','fraktur','small','italic']),decor:new Set(['♡','ღ','୨୧','ꨄ','𐙚','⋆','✧','༘','🎀']),pos:'both',mode:'plain',space:false,seed:1,rand:false};
+let favs=[];try{favs=JSON.parse(localStorage.getItem('pn_favs')||'[]')}catch(e){}
+let current=[];
+const $=id=>document.getElementById(id);
+const conv=(t,m)=>Array.from(t).map(c=>m[c]||c).join('');
+const mk=s=>()=>{s|=0;s=s+0x6D2B79F5|0;let t=Math.imul(s^s>>>15,1|s);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296};
+const pick=(a,r)=>a[Math.floor(r()*a.length)];
+
+function gen(name,r,o){
+  const fl=FONTS.filter(f=>o.fonts.has(f.id));const fs=fl.length?fl:FONTS;
+  const f=pick(fs,r);const mode=o.mode==='random'?pick(['plain','wave','curvy'],r):o.mode;
+  let ch=Array.from(name);
+  if(mode==='wave')ch=ch.map((c,i)=>i%2?c.toLowerCase():c.toUpperCase());
+  const letters=mode==='curvy'?ch.map(c=>pick(fs,r).m[c]||c):ch.map(c=>f.m[c]||c);
+  const dl=o.decor.size?Array.from(o.decor):DECOR;
+  let d=pick(dl,r);if(r()>.6)d+=pick(dl,r);
+  const rev=Array.from(d).reverse().join('');
+  const sp=o.space?' ':'';
+  const pos=o.pos==='random'?pick(['start','mid','end','both','between'],r):o.pos;
+  const t=letters.join('');
+  if(pos==='start')return d+sp+t;
+  if(pos==='end')return t+sp+d;
+  if(pos==='both')return d+sp+t+sp+rev;
+  if(pos==='mid'){const h=Math.ceil(letters.length/2);return letters.slice(0,h).join('')+sp+d+sp+letters.slice(h).join('')}
+  const a=Array.from(pick(dl,r));return letters.join(a.length>1?a[0]:a[0]);
+}
+
+function build(){
+  const o={fonts:S.rand?new Set(FONTS.map(f=>f.id)):S.fonts,decor:S.rand?new Set():S.decor,pos:S.rand?'random':S.pos,mode:S.rand?'random':S.mode,space:S.space};
+  const r=mk(S.seed*7919+13);const out=new Set();let n=0;
+  const base=S.name.trim();
+  while(out.size<12&&n++<80){out.add(gen(base||pick(NAMES,r),r,o))}
+  return Array.from(out);
+}
+
+async function copy(t){
+  try{await navigator.clipboard.writeText(t)}catch(e){const a=document.createElement('textarea');a.value=t;a.style.cssText='position:fixed;top:0;left:0;opacity:0;font-size:16px';document.body.appendChild(a);a.focus();a.select();a.setSelectionRange(0,a.value.length);try{document.execCommand('copy')}catch(_){}a.remove()}
+  const T=$('toast');T.classList.add('show');clearTimeout(T._t);T._t=setTimeout(()=>T.classList.remove('show'),1400);
+}
+function saveFavs(){try{localStorage.setItem('pn_favs',JSON.stringify(favs))}catch(e){}}
+function toggleFav(t){const i=favs.indexOf(t);i>=0?favs.splice(i,1):favs.unshift(t);saveFavs();renderResults();renderFavs()}
+
+function card(t,i,isFav){
+  const d=document.createElement('div');d.className='item';d.style.animationDelay=(i*30)+'ms';
+  const n=document.createElement('div');n.className='nick';n.textContent=t;
+  const a=document.createElement('div');a.className='acts';
+  const c=document.createElement('button');c.className='btn';c.textContent='Copy';c.onclick=()=>copy(t);
+  const f=document.createElement('button');f.className='btn fav'+(favs.includes(t)&&!isFav?' on':'');
+  f.textContent=isFav?'✕':(favs.includes(t)?'♥':'♡');f.setAttribute('aria-label',isFav?'Удалить':'В избранное');
+  f.onclick=()=>toggleFav(t);
+  a.append(c,f);d.append(n,a);return d;
+}
+function renderResults(){
+  $('rtitle').textContent=S.rand?'🎲 Случайные ники':'✨ Результаты';
+  const g=$('results');g.replaceChildren(...current.map((t,i)=>card(t,i,false)));
+}
+function renderFavs(){
+  const g=$('favs');
+  if(!favs.length){g.innerHTML='<div class="empty">Пока пусто — нажми ♡ у понравившегося ника</div>';return}
+  g.replaceChildren(...favs.map((t,i)=>card(t,i,true)));
+}
+function update(){current=build();renderResults()}
+
+function chips(id,items,isOn,onClick,label){
+  const box=$(id);box.replaceChildren();
+  items.forEach(it=>{const b=document.createElement('button');b.className='chip';
+    b.textContent=label(it);b.setAttribute('aria-pressed',isOn(it));
+    b.onclick=()=>{onClick(it);S.rand=false;chips(id,items,isOn,onClick,label);update()};box.appendChild(b)});
+}
+const refreshChips=()=>{
+  chips('fonts',FONTS,f=>S.fonts.has(f.id),f=>S.fonts.has(f.id)?S.fonts.delete(f.id):S.fonts.add(f.id),f=>conv('Mari',f.m)+' · '+FNAMES[f.id]);
+  chips('decor',DECOR,d=>S.decor.has(d),d=>S.decor.has(d)?S.decor.delete(d):S.decor.add(d),d=>d);
+  chips('pos',POS,p=>S.pos===p[0],p=>S.pos=p[0],p=>p[1]);
+  chips('mode',MODES,m=>S.mode===m[0],m=>S.mode=m[0],m=>m[1]);
+};
+$('name').addEventListener('input',e=>{S.name=e.target.value;update()});
+$('refresh').onclick=()=>{S.seed=Math.floor(Math.random()*1e6);update()};
+$('random').onclick=()=>{S.rand=true;S.seed=Math.floor(Math.random()*1e6);update()};
+$('space').onclick=e=>{S.space=!S.space;e.target.setAttribute('aria-pressed',S.space);S.rand=false;update()};
+
+// блёстки
+const SYM=['✧','♡','⋆','✦','˚','🎀'];
+if(!matchMedia('(prefers-reduced-motion:reduce)').matches){
+  setInterval(()=>{if(document.hidden)return;const s=document.createElement('span');s.className='sp';
+    s.textContent=SYM[Math.floor(Math.random()*SYM.length)];s.style.left=Math.random()*100+'vw';
+    s.style.fontSize=(10+Math.random()*16)+'px';s.style.animationDuration=(6+Math.random()*6)+'s';
+    document.body.appendChild(s);setTimeout(()=>s.remove(),12500)},450);
+}
+refreshChips();update();renderFavs();
+</script>
+</body>
+</html>
